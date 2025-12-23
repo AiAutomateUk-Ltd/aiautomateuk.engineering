@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Twins: Your Real Life... But Virtual! 🤯</title>
+    <meta name="description" content="Discover Digital Twins – virtual clones making life easier, fun, and smarter! Especially shopping that always fits perfectly 👗✨">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <style>
+        body { background: linear-gradient(to bottom, #0f172a, #1e293b); color: white; font-family: 'Inter', sans-serif; }
+        .glow { text-shadow: 0 0 20px rgba(59, 130, 246, 0.8); }
+        .section { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 4rem 1rem; }
+        .card { transition: transform 0.3s; }
+        .card:hover { transform: scale(1.05); }
+        .carousel img { transition: opacity 0.5s; }
+    </style>
+</head>
+<body>
+    <!-- Hero -->
+    <section class="section text-center bg-gradient-to-b from-blue-900 to-slate-900">
+        <h1 class="text-6xl font-bold glow mb-8">Digital Twins: Your Real Life... But Virtual! 🤯</h1>
+        <p class="text-2xl mb-12 max-w-3xl mx-auto">Imagine a magic copy of your stuff that makes life easier, safer, and more fun. It's here now! 🪞✨</p>
+        <p class="text-xl mb-12 max-w-4xl mx-auto">A Digital Twin is like a virtual clone of real things—your home, body, or clothes. It uses smart data to help you without any risk.</p>
+        <button onclick="document.getElementById('what-is').scrollIntoView({behavior: 'smooth'})" class="bg-blue-600 hover:bg-blue-700 text-white text-2xl px-8 py-4 rounded-full glow">See the Magic 🚀</button>
+    </section>
+
+    <!-- What’s a Digital Twin? -->
+    <section id="what-is" class="section">
+        <h2 class="text-5xl font-bold text-center glow mb-12">What’s a Digital Twin? 🪞</h2>
+        <p class="text-2xl text-center mb-8">Ever wish you could test stuff without messing up the real thing?</p>
+        <p class="text-xl max-w-3xl mx-auto text-center">It's a virtual copy that stays updated with real data. Like a mirror that thinks! ✨</p>
+        <p class="text-xl mt-8 text-center">Example: Your phone's twin knows when it's getting old and warns you. 📱</p>
+    </section>
+
+    <!-- Cool Ways -->
+    <section class="section bg-slate-800">
+        <h2 class="text-5xl font-bold text-center glow mb-16">Cool Ways Digital Twins Make Life Awesome 😎</h2>
+        
+        <!-- Smart Home -->
+        <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center card">
+            <div>
+                <h3 class="text-4xl font-bold mb-4">Your Dream Smart Home 🏡</h3>
+                <p class="text-xl">Your house has a twin that learns your habits and saves energy/money!</p>
+                <p class="text-xl mt-4">Fun: Forgets lights on? Twin turns them off. Saves bills and the planet! 💡💰</p>
+            </div>
+            <div class="rounded-xl overflow-hidden shadow-2xl">
+                <img src="https://ietresearch.onlinelibrary.wiley.com/cms/asset/485abe94-dbd3-4525-83eb-b9659c7e57ba/stg270026-fig-0009-m.jpg" alt="Smart home digital twin energy saving" class="w-full">
+            </div>
+        </div>
+
+        <!-- Shopping – ENHANCED SECTION -->
+        <div class="max-w-7xl mx-auto mt-32 card p-8 bg-gradient-to-r from-purple-900 to-pink-900 rounded-3xl">
+            <h3 class="text-6xl font-bold text-center glow mb-8">Shop Like a Queen – Perfect Fit Every Time! 👗✨</h3>
+            <p class="text-2xl text-center mb-8">Try clothes on a virtual YOU before buying – no more returns or bad fits!</p>
+            <p class="text-2xl text-center mb-12">Your digital twin knows your exact body and style. Instant confidence boost 😍</p>
+            
+            <!-- Your uploaded image as HERO -->
+            <div class="rounded-2xl overflow-hidden shadow-2xl mb-12">
+                <!-- Replace the src below with your actual uploaded image URL if hosted, or use data URL/base64 for GitHub. For now, placeholder comment -->
+                <img src="https://your-uploaded-image-url-here.jpg" alt="Futuristic digital twin virtual fitting room – woman trying orange dress on holographic screen" class="w-full">
+                <!-- If not hosted yet, upload to imgur/imgbb and paste direct link -->
+            </div>
+            
+            <!-- Carousel of inspiring images -->
+            <div class="grid md:grid-cols-2 gap-8">
+                <img src="https://www.glossy.co/wp-content/uploads/sites/4/2023/06/Digital-mannequin-1-1.jpg?w=1140&h=600&crop=1" alt="Holographic digital mannequin fashion try-on" class="rounded-xl shadow-2xl">
+                <img src="https://virtualongroup.com/wp-content/uploads/2024/06/Virtual-Fashion-Fitting-Mirror-Showroom.jpg" alt="Interactive AR fashion mirror virtual fitting" class="rounded-xl shadow-2xl">
+                <img src="https://glance-web.glance-cdn.com/female_fashion_designer_worke_with_holographic_augmented_reality_3d_model_young_woman_create_new_c_1_c6c396117e.jpg" alt="Designer with holographic 3D fashion model" class="rounded-xl shadow-2xl">
+                <img src="https://assets.vogue.com/photos/68e3ef77f52b0f27eb144da9/master/w_1600%2Cc_limit/inline-2-inline-1%2520(4).jpg" alt="Personal AI twin as e-commerce model Vogue" class="rounded-xl shadow-2xl">
+            </div>
+            
+            <ul class="text-xl text-center mt-12 space-y-4">
+                <li>🌟 See exactly how it looks on YOUR body</li>
+                <li>👛 Save money – zero wrong sizes</li>
+                <li>🛍️ Fun styling suggestions based on your vibe</li>
+                <li>✨ Feel fabulous before it even arrives!</li>
+            </ul>
+        </div>
+
+        <!-- Health -->
+        <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center card mt-24">
+            <div>
+                <h3 class="text-4xl font-bold mb-4">Health & Fitness Superhero 💪</h3>
+                <p class="text-xl">A twin of your body tracks health and gives easy tips.</p>
+                <p class="text-xl mt-4">Fun: Like a personal coach in your watch—'Hey, walk more today!' 🏃</p>
+            </div>
+            <div class="rounded-xl overflow-hidden shadow-2xl">
+                <img src="https://www.cnet.com/a/img/resize/881cdf8c625e54cd45fb71457cf20f6dadfcc45e/hub/2024/06/24/94a3dca3-f18b-4943-8cbb-bfd261f11894/screenshot-2024-06-24-at-10-53-23am.png?auto=webp&fit=crop&height=900&width=1200" alt="Personal health digital twin" class="w-full">
+            </div>
+        </div>
+
+        <!-- Quick Combos -->
+        <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 mt-24">
+            <div class="card p-8 bg-blue-900 rounded-xl text-center">
+                <h3 class="text-3xl font-bold mb-4">No More Traffic Jams 🚗</h3>
+                <p>Your city's twin fixes roads before you get stuck!</p>
+            </div>
+            <div class="card p-8 bg-purple-900 rounded-xl text-center">
+                <h3 class="text-3xl font-bold mb-4">Epic Games 🎮</h3>
+                <p>Play with super-real virtual worlds and avatars!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Love It -->
+    <section class="section text-center">
+        <h2 class="text-5xl font-bold glow mb-12">Why You'll Love It ❤️</h2>
+        <ul class="text-2xl space-y-6 max-w-3xl mx-auto">
+            <li>Personalized just for YOU ❤️</li>
+            <li>Saves time & money 💰</li>
+            <li>Safer (tests bad stuff virtually) 🛡️</li>
+            <li>Super fun! 🚀</li>
+        </ul>
+        <p class="text-xl mt-12">Quick Watch-Out: It uses your data—pick trusted apps! Privacy matters 🔒</p>
+    </section>
+
+    <!-- Future & CTA slightly tweaked -->
+    <section class="section bg-gradient-to-b from-purple-900 to-slate-900 text-center">
+        <h2 class="text-5xl font-bold glow mb-12">The Future? Mind-Blowing! 🌟</h2>
+        <p class="text-2xl max-w-4xl mx-auto">Soon: Virtual you handling shopping, styling, and more 🌍👗</p>
+    </section>
+
+    <section class="section text-center bg-blue-900">
+        <h2 class="text-5xl font-bold glow mb-8">Digital Twins = Your Secret Style Sidekick! 🦸‍♀️</h2>
+        <p class="text-2xl mb-12">What's YOUR dream outfit try-on? Share now! 🤩 #DigitalTwins #VirtualShopping</p>
+        <div class="space-x-4">
+            <a href="https://twitter.com/intent/tweet?text=I%20need%20this%20Digital%20Twin%20shopping%20magic!%20%F0%9F%91%97%E2%9C%A8%20Perfect%20fits%20forever%20%F0%9F%A4%AF%20%23DigitalTwins" target="_blank" class="bg-sky-500 hover:bg-sky-600 px-8 py-4 rounded-full text-xl">Share on X</a>
+        </div>
+        <p class="mt-12 text-lg">Powered by AiautomateUK Ltd – Pioneering AI that empowers you.</p>
+    </section>
+
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.utils.toArray('.card, .section h2, .section p, img').forEach(el => {
+            gsap.from(el, { opacity: 0, y: 50, duration: 1, scrollTrigger: { trigger: el, start: 'top 80%' } });
+        });
+    </script>
+</body>
+</html>
